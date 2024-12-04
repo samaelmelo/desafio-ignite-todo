@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# :iphone: App - ToDoList
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- Projeto desenvolvido na trilha de **React Native** do **Ignite** da [Rocketseat][rocketseat_site].
+- Modulo 1 - Fundamentos de React Native
+- Desafio 01 - Praticando os conceitos do React Native
 
-## Get started
 
-1. Install dependencies
+## :computer: Sobre o projeto
 
-   ```bash
-   npm install
-   ```
+- Aplicativo de Controle de Tarefas
+- Objetivo de colocarmos em prática todo conteúdo estudado durante este módulo.
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+## :wrench: Conceitos
 
-In the output, you'll find options to open the app in a
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no React Native
+- Propriedades
+- Componentização
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠 Funcionalidades
 
-## Get a fresh project
+Solicitado neste Desafio:
 
-When you're ready, run:
+- :white_check_mark: Adicionar uma nova tarefa
+- :white_check_mark: Marcar e desmarcar uma tarefa como concluída
+- :white_check_mark: Remover uma tarefa da listagem
+- :white_check_mark: Mostrar o progresso de conclusão das tarefas
+
+
+## :bulb: Novas Funcionalidades
+
+Serão desenvolvidadas:
+
+- :white_square_button: Validar se uma tarefa já existe (plus)
+- :white_square_button: Não permitir criar uma tarefa Vazio (plus)
+- :white_square_button: Exibir alerta pedindo confirmação ao remover uma tarefa (plus)
+- :white_square_button: Editar uma tarefa da listagem (plus)
+- :white_square_button: Guardar a lista de tarefas no AsyncStorage (plus)
+- :white_square_button: Tema dark e light (plus)
+
+
+## :art: Layout
+
+![alt text](https://github.com/paulorochadev/ToDoList/blob/master/assets/Projeto.png?raw=true)
+
+
+## :open_file_folder: Como baixar o projeto
 
 ```bash
-npm run reset-project
+
+# Clonar o repositório
+$ git clone https://github.com/paulorochadev/ToDoList.git
+
+# Entrar no diretório
+$ cd ToDoList
+
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ expo start
+
+# Utilize o ExpoGo para executar o App
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## :rocket: Tecnologias
 
-To learn more about developing your project with Expo, look at the following resources:
+- [React Native][reactnative]
+- [Expo][expo]
+- [TypeScript][typescript]
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+## :scroll: Licença
 
-Join our community of developers creating universal apps.
+Este projeto foi publicado em 2022 sob a licença [MIT](./LICENSE).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-------------
+
+Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
+
+Gostou? Deixe uma estrelinha para ajudar o projeto :star:
+
+
+[reactnative]: https://reactnative.dev/
+[expo]: https://expo.io/
+[typescript]: https://www.typescriptlang.org/
+
+[rocketseat_site]: https://www.rocketseat.com.br
+[linkdin_eu]: https://www.linkedin.com/in/paulo-rocha-b8556980/
