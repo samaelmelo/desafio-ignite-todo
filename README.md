@@ -52,7 +52,7 @@ Serão desenvolvidadas:
 ```bash
 
 # Clonar o repositório
-$ git clone https://github.com/paulorochadev/ToDoList.git
+$ git clone https://github.com/samaelmelo/desafio-ignite-todo.git
 
 # Entrar no diretório
 $ cd ToDoList
@@ -81,7 +81,7 @@ Este projeto foi publicado em 2022 sob a licença [MIT](./LICENSE).
 
 -------------
 
-Desenvolvido com :green_heart: por [**Paulo Roberto Rocha**][linkdin_eu].
+Desenvolvido com :green_heart: por [**Samael Melo**][linkdin_eu].
 
 Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 
@@ -91,4 +91,4 @@ Gostou? Deixe uma estrelinha para ajudar o projeto :star:
 [typescript]: https://www.typescriptlang.org/
 
 [rocketseat_site]: https://www.rocketseat.com.br
-[linkdin_eu]: https://www.linkedin.com/in/paulo-rocha-b8556980/
+[linkdin_eu]: https://www.linkedin.com/in/samael-melo/
